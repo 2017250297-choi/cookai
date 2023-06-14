@@ -43,11 +43,11 @@ FRONT_DEVELOP_URL = "http://127.0.0.1:5500"
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    "localhost",
-    "127.0.0.1",
+    "sfsadf.com",
+    "225.123.0.1",
 ]
 
 
@@ -169,7 +169,7 @@ SIMPLE_JWT = {
     "UPDATE_LAST_LOGIN": False,
 }
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOW_CREDENTIALS = True
 CSRF_TRUSTED_ALL_ORIGINS = True
 AUTH_USER_MODEL = "users.User"
